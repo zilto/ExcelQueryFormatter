@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['QueryFormatter.py'],
-             pathex=['C:\\Users\\XPS\\coding\\projects\\sf_query'],
+             pathex=['C:\\Users\\XPS\\coding\\projects\\ExcelQueryFormatter'],
              binaries=[],
              datas=[],
              hiddenimports=[],
@@ -21,7 +21,7 @@ exe = EXE(pyz,
           a.scripts,
           [],
           exclude_binaries=True,
-          name='QueryFormatter',
+          name='ExcelQueryFormatter',
           debug=False,
           bootloader_ignore_signals=False,
           strip=False,

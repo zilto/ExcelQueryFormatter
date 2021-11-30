@@ -2,7 +2,7 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtWidgets import QApplication, QMainWindow, QMessageBox, QWidget, QPushButton, QLineEdit, QFileDialog
 
 try:
-    myappid = "ThierryJean_QueryFormatter_1.0"
+    myappid = "ThierryJean_ExcelQueryFormatter_1.0"
     PyQt5.QtWinExtras.QtWin.setCurrentProcessExplicitAppUserModelID(myappid)
     QtWin.setCurrentProcessExplicitAppUserModelID(myappid)
 except:
@@ -51,7 +51,7 @@ class MyWindow(QMainWindow):
         self.horizontalLayout.setObjectName("horizontalLayout")
         self.ogFname_label = QtWidgets.QLabel(self.layoutWidget)
         self.ogFname_label.setEnabled(True)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Preferred)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
         #makes the size of the line edits fixed
@@ -143,7 +143,7 @@ class MyWindow(QMainWindow):
 
     def retranslateUi(self, QueryFormatter):
         _translate = QtCore.QCoreApplication.translate
-        QueryFormatter.setWindowTitle(_translate("QueryFormatter", "MainWindow"))
+        QueryFormatter.setWindowTitle(_translate("QueryFormatter", "ExcelQueryFormatter"))
         self.ogFname_label.setText(_translate("QueryFormatter", "Original File Name"))
         self.ogFname_bBrowse.setText(_translate("QueryFormatter", "Browse"))
         self.modelFname_label.setText(_translate("QueryFormatter", "Model File Name"))

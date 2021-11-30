@@ -42,7 +42,7 @@
   ('QueryFormatter',
    'C:\\Users\\XPS\\coding\\projects\\ExcelQueryFormatter\\QueryFormatter.py',
    'PYSOURCE'),
-  ('QueryFormatter.exe.manifest',
+  ('ExcelQueryFormatter.exe.manifest',
    'C:\\Users\\XPS\\coding\\projects\\ExcelQueryFormatter\\build\\QueryFormatter\\QueryFormatter.exe.manifest',
    'BINARY')],
  True,
